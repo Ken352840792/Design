@@ -30,7 +30,8 @@ namespace Design.SimpleFactory
             //创建操作实例的对象 B
             Operation operation = operationFactory.CreateFactory("Add");
             //调用实例拿到结果 C D
-            operation.GetResult(1, 1);
+            Console.WriteLine(operation.GetResult(1, 1));
+            Console.ReadLine();
         }
     }
 }
