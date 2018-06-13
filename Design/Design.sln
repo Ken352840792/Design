@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.SimpleFactory", "Design.SimpleFactory\Design.SimpleFactory.csproj", "{197AF7C3-6493-4389-B676-0AF31B3D1321}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design.SimpleFactory", "Design.SimpleFactory\Design.SimpleFactory.csproj", "{197AF7C3-6493-4389-B676-0AF31B3D1321}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Strategy", "Design.Strategy\Design.Strategy.csproj", "{2C4D7BFB-552F-4107-92BD-2F030E70EC78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design.Strategy", "Design.Strategy\Design.Strategy.csproj", "{2C4D7BFB-552F-4107-92BD-2F030E70EC78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Decorator", "ConsoleApp.Decorator\ConsoleApp.Decorator.csproj", "{DC3679DA-86DD-4E7B-97DF-F3D8E406FD54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Observer", "ConsoleApp.Observer\ConsoleApp.Observer.csproj", "{9829F604-E67A-4DCF-8729-5CF43F302A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.StateObserver", "ConsoleApp.StateObserver\ConsoleApp.StateObserver.csproj", "{B6DBB456-BE38-40BA-BE24-EE090C01D425}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{2C4D7BFB-552F-4107-92BD-2F030E70EC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C4D7BFB-552F-4107-92BD-2F030E70EC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C4D7BFB-552F-4107-92BD-2F030E70EC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3679DA-86DD-4E7B-97DF-F3D8E406FD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3679DA-86DD-4E7B-97DF-F3D8E406FD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3679DA-86DD-4E7B-97DF-F3D8E406FD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3679DA-86DD-4E7B-97DF-F3D8E406FD54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9829F604-E67A-4DCF-8729-5CF43F302A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9829F604-E67A-4DCF-8729-5CF43F302A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9829F604-E67A-4DCF-8729-5CF43F302A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9829F604-E67A-4DCF-8729-5CF43F302A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DBB456-BE38-40BA-BE24-EE090C01D425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DBB456-BE38-40BA-BE24-EE090C01D425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DBB456-BE38-40BA-BE24-EE090C01D425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DBB456-BE38-40BA-BE24-EE090C01D425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
