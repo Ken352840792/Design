@@ -2,6 +2,9 @@
 
 namespace ConsoleApp.StateObserver
 {
+    /// <summary>
+    /// 状态模式
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
