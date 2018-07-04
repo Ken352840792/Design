@@ -4,11 +4,11 @@ using System.Text;
 
 namespace ConsoleApp.Inerator_ForEach
 {
-    class ConcreateIterator : Iterator
+    class ConcreteIterator : Iterator
     {
-        ConcreateAggregate aggregate;
+        ConcreteAggregate aggregate;
         int current = 0;
-        public ConcreateIterator(ConcreateAggregate concreateAggregate)
+        public ConcreteIterator(ConcreteAggregate concreateAggregate)
         {
             this.aggregate = concreateAggregate;
         }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp.Inerator_ForEach
 {
-    class ConcreateAggregate : Aggregate
+    class ConcreteAggregate : Aggregate
     {
         IList<object> items = new List<object>();
         public int Count
