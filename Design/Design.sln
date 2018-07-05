@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Chain of respons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Mediator", "ConsoleApp.Mediator\ConsoleApp.Mediator.csproj", "{408E54EF-D8B9-42D2-876B-CBB5719E5C4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Interpreter", "ConsoleApp.Interpreter\ConsoleApp.Interpreter.csproj", "{6E2C95E5-6A38-49A3-A91A-08B04116D2DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{408E54EF-D8B9-42D2-876B-CBB5719E5C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{408E54EF-D8B9-42D2-876B-CBB5719E5C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{408E54EF-D8B9-42D2-876B-CBB5719E5C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2C95E5-6A38-49A3-A91A-08B04116D2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2C95E5-6A38-49A3-A91A-08B04116D2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2C95E5-6A38-49A3-A91A-08B04116D2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2C95E5-6A38-49A3-A91A-08B04116D2DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
